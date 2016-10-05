@@ -1,0 +1,29 @@
+{
+    "series": [
+    {
+      "title": "Popeye",
+      "image": "Popeye.jpg",
+      "serie": "Popeye"
+    },
+    {
+      "title": "Superman",
+      "image": "superman.png",
+      "serie": "Superman"
+    },
+    {
+      "title": "Mighty Mouse",
+      "image": "mighty-mouse.jpg",
+      "serie": "MightyMouse"
+    },
+    {
+      "title": "Casper",
+      "image": "Casper.jpg",
+      "serie": "Casper"
+    },
+    {
+      "title": "Donald Duck",
+      "image": "donaldduck.jpg",
+      "serie": "DonaldDuck"
+    }
+    ]
+}

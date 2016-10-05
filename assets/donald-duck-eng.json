@@ -1,0 +1,88 @@
+{
+    "chapters": [
+    {
+      "title": "All in a Nutshell",
+	  "description": "Donald has a walnut-shaped shop where he makes nut butters.",
+      "image": "all_in_a_nutshell_thumb.png",
+	  "video": "all_in_a_nutshell.mp4"
+    },
+    {
+      "title": "Bee at The Beach",
+	  "description": "Donald is enjoying a day at the beach.",
+      "image": "bee_at_the_beach_thumb.png",
+	  "video": "bee_at_the_beach.mp4"
+    },
+    {
+      "title": "Corn Chips",
+	  "description": "Donald is shoveling the snow off his walk; Chip 'n' Dale are shoveling their branch.",
+      "image": "corn_chips_thumb.png",
+	  "video": "corn_chips.mp4"
+    },
+    {
+      "title": "Donald's Happy Birthday",
+	  "description": "A birthday present of cigars goes awry.",
+      "image": "donald_happy_birthday_thumb.png",
+	  "video": "donald_happy_birthday.mp4"
+    },
+    {
+      "title": "Dude Duck",
+	  "description": "Donald is vacationing at a dude ranch.",
+      "image": "dude_duck_thumb.png",
+	  "video": "dude_duck.mp4"
+    },
+    {
+      "title": "Honey Harvester",
+	  "description": "Donald is out collecting honey.",
+      "image": "honey_harvester_thumb.png",
+	  "video": "honey_harvester.mp4"
+    },
+    {
+      "title": "Hook, Lion and Sinker",
+	  "description": "Louie the Mountain Lion and his son attempt to steal from Donald.",
+      "image": "hook_lion_and_sinker_thumb.png",
+	  "video": "hook_lion_and_sinker.mp4"
+    },
+    {
+      "title": "Lion Around",
+	  "description": "Donald's nephews use a mountain lion costume to scare Donald.",
+      "image": "lion_around_thumb.png",
+	  "video": "lion_around.mp4"
+    },
+    {
+      "title": "Out on a Limb",
+	  "description": "Donald is pruning Chip 'n' Dale's tree home.",
+      "image": "out_on_a_limb_thumb.png",
+	  "video": "out_on_a_limb.mp4"
+    },
+    {
+      "title": "Slide Donald Slide",
+	  "description": "Donald wants to listen to the World Series on the radio.",
+      "image": "slide_donald_slide_thumb.png",
+	  "video": "slide_donald_slide.mp4"
+    },
+    {
+      "title": "Test Pilot Donald",
+	  "description": "Dale dreams of flying and finds a perfect opportunity.",
+      "image": "test_pilot_donald_thumb.png",
+	  "video": "test_pilot_donald.mp4"
+    },
+    {
+      "title": "The Greener Yard",
+	  "description": "A small beetle decides that the grass is greener in the yard next door.",
+      "image": "the_greener_yard_thumb.png",
+	  "video": "the_greener_yard.mp4"
+    },
+    {
+      "title": "Toy Tinkers",
+	  "description": "Chip and Dale sneak into Donald Duck's house to steal his walnuts.",
+      "image": "toy_tinkers_thumb.png",
+	  "video": "toy_tinkers.mp4"
+    },
+    {
+      "title": "Winter Storage",
+	  "description": "Chip and Dale are worried about gathering enough acorns for the winter.",
+      "image": "winter_storage_thumb.png",
+	  "video": "winter_storage.mp4"
+    }
+  ]
+}

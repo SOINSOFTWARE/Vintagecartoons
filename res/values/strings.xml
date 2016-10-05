@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vintage Cartoons</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_chapter_item">Chapter</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="alt">Image Alt</string>
+    <string name="loading">Loading</string>
+    <string name="welcome">Welcome to Vintage Cartoons,</string>
+    <string name="subtitle">What do you want to watch today?</string>
+
+</resources>
