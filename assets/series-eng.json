@@ -3,27 +3,26 @@
     {
       "title": "Popeye",
       "image": "Popeye.jpg",
-      "serie": "Popeye"
+      "serie": "Popeye",
+      "copyright": "'Popeye The Sailor' and all related characters, names and indicia are copyright of King Features Syndicate, Inc."
     },
     {
       "title": "Superman",
       "image": "superman.png",
-      "serie": "Superman"
+      "serie": "Superman",
+      "copyright": "'Superman' and all related characters, names and indicia are copyright of Warner Bros. Entertainment Inc."
     },
     {
       "title": "Mighty Mouse",
       "image": "mighty-mouse.jpg",
-      "serie": "MightyMouse"
+      "serie": "MightyMouse",
+      "copyright": "'Mighty Mouse' and all related characters, names and indicia are copyright of Viacom International, Inc."
     },
     {
       "title": "Casper",
       "image": "Casper.jpg",
-      "serie": "Casper"
-    },
-    {
-      "title": "Donald Duck",
-      "image": "donaldduck.jpg",
-      "serie": "DonaldDuck"
+      "serie": "Casper",
+      "copyright": "'Casper the Friendly Ghost' and all related characters, names and indicia are copyright of Harvey Cartoons Studios, Inc."
     }
     ]
 }

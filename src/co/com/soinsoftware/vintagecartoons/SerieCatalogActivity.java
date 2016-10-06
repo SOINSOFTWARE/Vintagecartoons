@@ -36,6 +36,8 @@ public class SerieCatalogActivity extends Activity {
 
 	private static final String JSON_SERIE_TAG = "serie";
 
+	private static final String JSON_COPYRIGHT_TAG = "copyright";
+
 	protected static final String SERIE = "serie";
 
 	private static SerieCatalogActivity instance;
@@ -100,9 +102,11 @@ public class SerieCatalogActivity extends Activity {
 				final String title = jo_inside.getString(JSON_TITLE_TAG);
 				final String image = jo_inside.getString(JSON_IMAGE_TAG);
 				final String serie = jo_inside.getString(JSON_SERIE_TAG);
+				final String copyright = jo_inside
+						.getString(JSON_COPYRIGHT_TAG);
 
-				this.serieItemList
-						.add(new SerieItem(title, URL + image, serie));
+				this.serieItemList.add(new SerieItem(title, URL + image, serie,
+						copyright));
 			}
 		} catch (JSONException e) {
 			e.printStackTrace();

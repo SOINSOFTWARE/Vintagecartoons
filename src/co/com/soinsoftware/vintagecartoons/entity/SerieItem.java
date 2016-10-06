@@ -21,13 +21,16 @@ public class SerieItem implements Serializable {
 	private final String imageAddress;
 
 	private final String serie;
+	
+	private final String copyright;
 
 	public SerieItem(final String title, final String imageAddress,
-			final String serie) {
+			final String serie, final String copyright) {
 		super();
 		this.imageAddress = imageAddress;
 		this.title = title;
 		this.serie = serie;
+		this.copyright = copyright;
 	}
 
 	public String getTitle() {
@@ -40,5 +43,9 @@ public class SerieItem implements Serializable {
 
 	public String getSerie() {
 		return serie;
+	}
+
+	public String getCopyright() {
+		return copyright;
 	}
 }

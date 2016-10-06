@@ -35,7 +35,7 @@ public class SerieArrayAdapter extends ArrayAdapter<SerieItem> {
 				parent, false);
 		final SerieItem serieItem = this.serieItemValues[position];
 		this.fillImage(rowView, serieItem);
-		this.fillTitle(rowView, serieItem);
+		this.fillCopyright(rowView, serieItem);
 		return rowView;
 	}
 
@@ -45,10 +45,10 @@ public class SerieArrayAdapter extends ArrayAdapter<SerieItem> {
 		new DownloadImageTask((ImageView) imageView).execute(imageAddress);
 	}
 
-	private void fillTitle(final View rowView, final SerieItem chapterItem) {
+	private void fillCopyright(final View rowView, final SerieItem chapterItem) {
 		final TextView textView = (TextView) rowView
 				.findViewById(R.id.firstLine);
-		final String title = chapterItem.getTitle();
-		textView.setText(title);
+		final String copyright = chapterItem.getCopyright();
+		textView.setText(copyright);
 	}
 }

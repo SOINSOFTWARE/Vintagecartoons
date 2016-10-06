@@ -240,16 +240,18 @@ public class VideoPlayerActivity extends Activity implements
 				.findViewById(R.id.chapterListView);
 		final ChapterArrayAdapter adapter = new ChapterArrayAdapter(this,
 				this.chapterItemVals);
-		chapterView.setAdapter(adapter);
-		chapterView.setOnItemClickListener(new OnItemClickListener() {
-			public void onItemClick(final AdapterView<?> parent,
-					final View view, final int position, final long id) {
-				final ChapterItem chapter = chapterItemVals[position];
-				releaseMediaPlayer();
-				loadVideo(chapter, true);
-				mediaPlayer.setDisplay(holder);
-			}
-		});
+		if (chapterView != null) {
+			chapterView.setAdapter(adapter);
+			chapterView.setOnItemClickListener(new OnItemClickListener() {
+				public void onItemClick(final AdapterView<?> parent,
+						final View view, final int position, final long id) {
+					final ChapterItem chapter = chapterItemVals[position];
+					releaseMediaPlayer();
+					loadVideo(chapter, true);
+					mediaPlayer.setDisplay(holder);
+				}
+			});
+		}
 	}
 
 	private ChapterItem getRandomChapter() {
@@ -275,8 +277,7 @@ public class VideoPlayerActivity extends Activity implements
 
 	private void loadVideo(final ChapterItem chapter, final boolean autoPlay) {
 		this.showProgressBar();
-		final TextView textView = (TextView) findViewById(R.id.title);
-		textView.setText(chapter.getTitle());
+		this.setChapterInformation(chapter);
 		try {
 			Uri vidUri = Uri.parse(chapter.getVideoAddress());
 			this.mediaPlayer = new MediaPlayer();
@@ -298,6 +299,17 @@ public class VideoPlayerActivity extends Activity implements
 		} catch (Exception e) {
 			Log.e("Vintage Cartoons", "error: " + e.getMessage(), e);
 			pDialog.dismiss();
+		}
+	}
+
+	private void setChapterInformation(final ChapterItem chapter) {
+		final TextView textViewTitle = (TextView) findViewById(R.id.title);
+		if (textViewTitle != null) {
+			textViewTitle.setText(chapter.getTitle());
+		}
+		final TextView textViewCopyright = (TextView) findViewById(R.id.copyright);
+		if (textViewCopyright != null) {
+			textViewCopyright.setText(this.serieItem.getCopyright());
 		}
 	}
 

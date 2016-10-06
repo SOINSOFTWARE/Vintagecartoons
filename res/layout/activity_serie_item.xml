@@ -1,31 +1,36 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="130dip"
-    android:background="#4d4d4d"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin" >
+    android:layout_width="match_parent"
+    android:layout_height="170dip"
+    android:background="#4d4d4d" >
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/alt"
+        android:scaleType="centerCrop"
+            android:src="@drawable/background" />
 
     <ImageView
         android:id="@+id/icon"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="140dip"
         android:layout_alignParentTop="true"
         android:padding="5dip"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
         android:contentDescription="@string/alt"
-        android:src="@drawable/ic_launcher" />
+        android:src="@drawable/vintage_cartoons" />
 
     <TextView
         android:id="@+id/firstLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/icon"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
         android:text="@string/title"
-        android:textColor="#f4ed34"
-        android:textSize="16sp" />
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
 
 </RelativeLayout>
