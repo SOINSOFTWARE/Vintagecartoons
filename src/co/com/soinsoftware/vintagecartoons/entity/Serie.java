@@ -8,8 +8,6 @@ import android.app.Activity;
 
 public abstract class Serie {
 
-	protected static final String URL = "http://www.thevintagecartoon.com/media/com_allvideoshare/";
-
 	protected static final String THUMB = "_thumb.jpg";
 
 	protected static final String MP4 = ".mp4";
@@ -47,9 +45,8 @@ public abstract class Serie {
 		return chapterItemList;
 	}
 
-	protected ChapterItem buildChapterItem(final String url,
-			final String image, final String title, final String description,
-			final String video) {
-		return new ChapterItem(url + image, title, description, url + video);
+	protected ChapterItem buildChapterItem(final String image, final String title,
+			final String description, final String video) {
+		return new ChapterItem(image, title, description, video);
 	}
 }

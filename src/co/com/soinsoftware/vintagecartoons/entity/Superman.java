@@ -10,8 +10,6 @@ import android.app.Activity;
 
 public class Superman extends Serie {
 
-	public static final String CHAPTER_URL = URL + "superman/";
-
 	private static final String JSON_FILE = "superman-eng.json";
 
 	public Superman(final Activity activity) {
@@ -33,8 +31,7 @@ public class Superman extends Serie {
 				final String image = jo_inside.getString(JSON_IMAGE_TAG);
 				final String video = jo_inside.getString(JSON_VIDEO_TAG);
 
-				this.chapterItemList.add(this.buildChapterItem(CHAPTER_URL,
-						image, title, description, video));
+				this.chapterItemList.add(this.buildChapterItem(image, title, description, video));
 			}
 		} catch (JSONException e) {
 			e.printStackTrace();

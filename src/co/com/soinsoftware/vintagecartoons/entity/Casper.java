@@ -10,8 +10,6 @@ import android.app.Activity;
 
 public class Casper extends Serie {
 
-	public static final String CHAPTER_URL = URL + "casper/";
-
 	private static final String JSON_FILE = "casper-eng.json";
 
 	public Casper(final Activity activity) {
@@ -33,8 +31,7 @@ public class Casper extends Serie {
 				final String image = jo_inside.getString(JSON_IMAGE_TAG);
 				final String video = jo_inside.getString(JSON_VIDEO_TAG);
 
-				this.chapterItemList.add(this.buildChapterItem(CHAPTER_URL,
-						image, title, description, video));
+				this.chapterItemList.add(this.buildChapterItem(image, title, description, video));
 			}
 		} catch (JSONException e) {
 			e.printStackTrace();
