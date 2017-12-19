@@ -1,82 +1,76 @@
 {
     "chapters": [
     {
-      "title": "There's Good Boos to-Night",
-	  "description": "The first appearance of Casper.",
-      "image": "theres_good_boos_to-night_thumb.jpg",
-	  "video": "theres_good_boos_to-night.mp4"
-    },
-    {
       "title": "Once Upon a Rhyme",
 	  "description": "Casper pays a visit to Fairytale Land.",
       "image": "once_upon_a_rhyme_thumb.jpg",
-	  "video": "once_upon_a_rhyme.mp4"
+	  "video": "https://archive.org/download/Paramount1950OnceUponARhymeCasperRedRidingHood/Paramount%201950%20Once%20Upon%20a%20Rhyme%20-%20Casper%2C%20Red%20Riding%20Hood.mp4"
     },
     {
       "title": "To Boo Or Not To Boo",
 	  "description": "Casper the Friendly Ghost, is depressed and glum.",
       "image": "to_boo_or_not_to_boo_thumb.jpg",
-	  "video": "to_boo_or_not_to_boo.mp4"
+	  "video": "https://archive.org/download/Paramount1951ToBooOrNotToBooCasper/Paramount%201951%20To%20Boo%20or%20Not%20to%20Boo%20-%20Casper.mp4"
     },
     {
       "title": "Boo Scout",
 	  "description": "The spooks in a haunted house are having a big party.",
       "image": "boo_scout_thumb.jpg",
-	  "video": "boo_scout.mp4"
+	  "video": "https://archive.org/download/Paramount1951BooScoutCasper/Paramount%201951%20Boo%20Scout%20-%20Casper.mp4"
     },
     {
       "title": "Casper Comes to Clown",
 	  "description": "Casper rescues Browny Bear from a swarm of bees.",
       "image": "casper_comes_to_clown_thumb.jpg",
-	  "video": "casper_comes_to_clown.mp4"
+	  "video": "https://archive.org/download/Paramount1951CasperComesToClownCasper/Paramount%201951%20Casper%20Comes%20to%20Clown%20-%20Casper.mp4"
     },
     {
       "title": "Casper Takes a Bow-Wow ",
 	  "description": "Who does not like scaring people, is hauled up before the Ghost Tribunal.",
       "image": "casper_takes_a_bow-wow_thumb.jpg",
-	  "video": "casper_takes_a_bow-wow.mp4"
+	  "video": "https://archive.org/download/CasperTheFriendlyGhost-CasperTakesABow-wow/CasperTakesABow-wow_512kb.mp4"
     },
     {
       "title": "The Deep Boo Sea",
 	  "description": "Little Billy wants to play pirates with two older friends.",
       "image": "the_deep_boo_sea_thumb.jpg",
-	  "video": "the_deep_boo_sea.mp4"
+	  "video": "https://archive.org/download/Paramount1952TheDeepBooSeaCasper/Paramount%201952%20The%20Deep%20Boo%20Sea%20-%20Casper.mp4"
     },
     {
       "title": "Ghost of the Town",
 	  "description": "All the spooks are going on 'scare patrol'.",
       "image": "ghost_of_the_town_thumb.jpg",
-	  "video": "ghost_of_the_town.mp4"
+	  "video": "https://archive.org/download/Paramount1952GhostOfTheTownCasper/Paramount%201952%20Ghost%20of%20the%20Town%20-%20Casper.mp4"
     },
     {
       "title": "Spunky Spunky",
 	  "description": "Casper meets a skunk.",
       "image": "spunky_skunky_thumb.jpg",
-	  "video": "spunky_skunky.mp4"
+	  "video": "https://archive.org/download/Paramount1952SpunkySkunkyCasper/Paramount%201952%20Spunky%20Skunky%20-%20Casper.mp4"
     },
     {
       "title": "Cage Fright",
 	  "description": "Casper the Friendly Ghost goes to the zoo.",
       "image": "cage_fright_thumb.jpg",
-	  "video": "cage_fright.mp4"
+	  "video": "https://archive.org/download/Paramount1952CageFrightCasper/Paramount%201952%20Cage%20Fright%20-%20Casper.mp4"
     },
     {
       "title": "True Boo",
 	  "description": "It's Christmas Eve, and what Casper wants for Christmas is a friend.",
       "image": "true_boo_thumb.jpg",
-	  "video": "true_boo.mp4"
+	  "video": "https://archive.org/download/Paramount1952TrueBooCasper/Paramount%201952%20True%20Boo%20-%20Casper.mp4"
     },
     {
       "title": "Spook No Evil",
 	  "description": "Casper has been found guilty of being too friendly.",
       "image": "spook_no_evil_thumb.jpg",
-	  "video": "spook_no_evil.mp4"
+	  "video": "https://archive.org/download/Paramount1953SpookNoEvilCasper/Paramount%201953%20Spook%20No%20Evil%20-%20Casper.mp4"
     },
     {
       "title": "Caper Genie",
 	  "description": "Casper comes upon a young boy reading about Aladdin and his magic lamp.",
       "image": "casper_genie_thumb.jpg",
-	  "video": "casper_genie.mp4"
+	  "video": "https://archive.org/download/Paramount1954CasperGenieCasper/Paramount%201954%20Casper%20Genie%20-%20Casper.mp4"
     }
   ]
 }

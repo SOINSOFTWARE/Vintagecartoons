@@ -4,49 +4,49 @@
       "title": "Wolf! Wolf!",
 	  "description": "Little Bo Peep is threatened when wolves attempt to capture them.",
       "image": "wolf_wolf_thumb.jpg",
-	  "video": "wolf_wolf.mp4"
+	  "video": "https://archive.org/download/mighty_mouse_wolf_wolf/mighty_mouse_wolf_wolf_512kb.mp4"
     },
     {
       "title": "The Johnstown Flood",
 	  "description": "Mighty Mouse comes to the rescue after drinking a bottle of 'Atomic Energy'.",
       "image": "the_johnstown_flood_thumb.jpg",
-	  "video": "the_johnstown_flood.mp4"
+	  "video": "https://archive.org/download/TheJohnstownFlood/MightyMouse-TheJohnstownFlood1946-WithOriginalRecreationTitles.mp4"
     },
     {
       "title": "The Crackpot King",
 	  "description": "The Little King wants a wife.",
       "image": "the_crackpot_king_thumb.jpg",
-	  "video": "the_crackpot_king.mp4"
+	  "video": "https://archive.org/download/PaulTerry1946TheCrackpotKing/Paul%20Terry%201946%20%20The%20Crackpot%20King.mp4"
     },
     {
       "title": "The Jail Break",
 	  "description": "Mighty House against Bad Bill Bunion.",
       "image": "the_jail_break_thumb.jpg",
-	  "video": "the_jail_break.mp4"
+	  "video": "https://archive.org/download/PaulTerry1946TheJailBreak/Paul%20Terry%201946%20The%20Jail%20Break.mp4"
     },
     {
       "title": "Swiss Cheese Family Robinson",
 	  "description": "A shipwrecked mouse family is beached on a tropical island.",
       "image": "swiss_cheese_family_robinson_thumb.jpg",
-	  "video": "swiss_cheese_family_robinson.mp4"
+	  "video": "https://archive.org/download/PaulTerry1947SwissCheeseFamilyRobinson/Paul%20Terry%201947%20Swiss%20Cheese%20Family%20Robinson.mp4"
     },
     {
       "title": "The Feudin' Hillbillies",
 	  "description": "Mighty Mouse saves the day for a family of mice living in the hills.",
       "image": "the-feudin-hillbillies-thumb.jpg",
-	  "video": "the-feudin-hillbillies.mp4"
+	  "video": "https://archive.org/download/PaulTerry1948TheFeudingHillbillies/Paul%20Terry%201948%20The%20Feuding%20Hillbillies.mp4"
     },
     {
       "title": "The Magic Slipper",
 	  "description": "This is a rather shopworn variation on Cinderella.",
       "image": "the_magic_slipper_thumb.jpg",
-	  "video": "the_magic_slipper.mp4"
+	  "video": "https://archive.org/download/PaulTerry1948TheMagicSlipper/Paul%20Terry%201948%20The%20Magic%20Slipper.mp4"
     },
     {
       "title": "Anti-Cats",
 	  "description": "Three mice seek refuge during a winter storm.",
       "image": "anti-cats-thumb.jpg",
-	  "video": "anti-cats.mp4"
+	  "video": "https://archive.org/download/AntiCats/IMG_2202.mp4"
     }
   ]
 }
