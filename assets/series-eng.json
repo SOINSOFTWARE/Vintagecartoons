@@ -2,25 +2,25 @@
     "series": [
     {
       "title": "Popeye",
-      "image": "Popeye.jpg",
+      "image": "https://cdn.idntimes.com/content-images/post/20171013/po-1-30ab97013b73122c8a222659b0dcac87_420x280.jpg",
       "serie": "Popeye",
       "copyright": "'Popeye The Sailor' and all related characters, names and indicia are copyright of King Features Syndicate, Inc."
     },
     {
       "title": "Superman",
-      "image": "superman.png",
+      "image": "https://cdn3.whatculture.com/images/2011/09/8-600x400.jpg",
       "serie": "Superman",
       "copyright": "'Superman' and all related characters, names and indicia are copyright of Warner Bros. Entertainment Inc."
     },
     {
       "title": "Mighty Mouse",
-      "image": "mighty-mouse.jpg",
+      "image": "https://fitnessmedia.azureedge.net/media/3351/960177_237556653067985_1864904856_n.jpg",
       "serie": "MightyMouse",
       "copyright": "'Mighty Mouse' and all related characters, names and indicia are copyright of Viacom International, Inc."
     },
     {
       "title": "Casper",
-      "image": "Casper.jpg",
+      "image": "https://enchantedamerica.files.wordpress.com/2014/12/maine-whipstaff-manor-casper-ghost-title.jpg",
       "serie": "Casper",
       "copyright": "'Casper the Friendly Ghost' and all related characters, names and indicia are copyright of Harvey Cartoons Studios, Inc."
     }

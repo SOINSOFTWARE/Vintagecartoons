@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d14539"
+    tools:context=".MainActivity" >
+    
+    <TextView 
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignParentTop="true"
+        android:paddingTop="5dip"
+        android:textColor="#f4ed34"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"/>
+    
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/surfaceview_large_height"
+        android:layout_below="@id/copyright"
+        android:paddingTop="20dip"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/chapterListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/surface"
+        android:paddingTop="10dip" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dip"
+    android:background="#4d4d4d" >
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/alt"
+        android:scaleType="centerCrop"
+            android:src="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="250dip"
+        android:layout_alignParentTop="true"
+        android:padding="5dip"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:contentDescription="@string/alt"
+        android:src="@drawable/logo_letters" />
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/title"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</RelativeLayout>

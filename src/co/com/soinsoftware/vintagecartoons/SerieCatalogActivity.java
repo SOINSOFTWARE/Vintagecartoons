@@ -24,8 +24,6 @@ import co.com.soinsoftware.vintagecartoons.entity.SerieItem;
 
 public class SerieCatalogActivity extends Activity {
 
-	private static final String URL = "http://www.thevintagecartoon.com/images/";
-
 	private static final String JSON_FILE = "series-eng.json";
 
 	private static final String JSON_PARENT_TAG = "series";
@@ -105,7 +103,7 @@ public class SerieCatalogActivity extends Activity {
 				final String copyright = jo_inside
 						.getString(JSON_COPYRIGHT_TAG);
 
-				this.serieItemList.add(new SerieItem(title, URL + image, serie,
+				this.serieItemList.add(new SerieItem(title, image, serie,
 						copyright));
 			}
 		} catch (JSONException e) {
